@@ -1,0 +1,28 @@
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(236, 134, 211);
+}
+
+
+
+.nav > .nav_logo {
+    display: flex;
+}
+
+.nav > .nav_menu{
+    display: flex;
+}
+
+.nav > .nav_link {
+    display: flex;
+}

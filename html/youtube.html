@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="../css/youtube.css">
+
+    <title>Youtube</title>
+    
+    <!-- js lib -->
+    <script src="https://kit.fontawesome.com/5b993b6ae5.js" crossorigin="anonymous" defer></script>
+    
+    <!-- Custom js -->
+
+</head>
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <i class="fab fa-youtube"></i>
+                <span class="title">Youtube</span>
+            </div>
+            <div class="icons">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+        </header>
+
+        <!-- Video Player -->
+        <section class="palyer">
+            <video controls src="../video/test.mp4"></video>
+        </section>
+        
+        <div class="infoAndNext">
+            <section class="info">
+                <!-- metadata -->
+                <div class="metadata">
+                    <ul class="hashtags">
+                        <li>#tes1</li>
+                        <li>#test2</li>
+                        <li>#test3</li>
+                    </ul>
+                    <div class="titleAndBtn">
+                        <span class="title">클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS, Javascript</span>
+                        <button class="moreBtn">
+                            <i class="fas fa-caret-down"></i>
+                        </button>
+                    </div>
+                    
+                    <span class="views">5,234</span>
+                    
+                </div>
+                <!-- actions -->
+                <ul class="actions">
+                    <li><button><i class="fas fa-thumbs-up active"></i>1K</button></li>
+                    <li><button><i class="fas fa-thumbs-down"></i>0</button></li>
+                    <li><button><i class="fas fa-share"></i>Share</button></li>
+                    <li><button><i class="fas fa-plus"></i>Save</button></li>
+                    <li><button><i class="fab fa-font-awesome-flag"></i>Report</button></li>
+                </ul>
+                <!-- channel -->
+                <div class="channel">
+                    <div class="metadata">
+                        <img src="../image/test.jpg" alt="">
+                        <div class="info">
+                            <span class="name">채널명</span>
+                            <span class="subscribers">1M subscribers</span>
+                        </div>
+                    </div>
+                    <button class="subscribe">subscribe</button>
+                </div>
+            </section>
+    
+            <section class="upNext">
+                <span class="title">Up Next</span>
+                <ul>
+                    <li class="item">
+                        <div class="img"><img src="../image/1.jpg" alt=""></div>
+                        <div class="info">
+                            <span class="title">유튜브 사이트를 반응형으로 만들어 볼꺼예요. 순수 HTML, CSS를 이용해서 (Javascript 약간) 만들어 보고, 다음에 Javascript를 배우면 동적으로 서버에서 데이터를 가져오는 연습을 더 해보도록 할께요.</span>
+                            <span class="name">채널명</span>
+                            <span class="views">21K views</span>
+                        </div>
+                        <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                    </li>
+                    <li class="item">
+                        <div class="img"><img src="../image/2.jpg" alt=""></div>
+                        <div class="info">
+                            <span class="title"> AI기반 코드 자동 완성 툴 Kite
+                                ⇢ VS Code에서 빠르고 똑똑하게 코딩할 수 있게 도와주는 AI를 기반으로한 무료 코드 자동 완성툴 </span>
+                            <span class="name">채널명</span>
+                            <span class="views">21K views</span>
+                        </div>
+                        <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                    </li>
+                    <li class="item">
+                        <div class="img"><img src="../image/3.jpg" alt=""></div>
+                        <div class="info">
+                            <span class="title">모든 드림코더분들이 개발자로 성장해 나가고 꿈을 이루는 여정에 함께 할 채널입니다 :)
+                                ❝Don't forget to code your dream
+                                여러분들의 멋진 꿈을 코딩하세요</span>
+                            <span class="name">채널명</span>
+                            <span class="views">21K views</span>
+                        </div>
+                        <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                    </li>                
+                </ul>
+            </section>
+        </div>
+    </body>
+</html>
