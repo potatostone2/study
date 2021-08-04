@@ -79,7 +79,7 @@ header .icons .fa-search {
 
 /* Video info */
 
-body > .info {
+.infoAndNext .info {
     padding: var(--padding);
 }
 
